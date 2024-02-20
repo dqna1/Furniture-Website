@@ -1,0 +1,167 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 100px;
+    width: calc(100% - 50px);
+    margin: 0 auto;
+}
+
+.menu a, .icons{
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    display: flex;
+    gap: 75px;
+    align-items: center;
+}
+
+.user-cart-icons{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+#shop-img{
+    width: 100%;
+}
+
+.shop-section{
+    position: relative;
+    margin-bottom: 65px;
+}
+
+.section-title{
+    position: absolute;
+    left: 45%;
+    top: 40%;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.items-section{
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 3%;
+    flex-wrap: wrap;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F5F7;
+    height: 450px; 
+    width: 285px; 
+    margin-bottom: 50px;
+}
+
+.item-image{
+    margin-bottom: 16px;
+}
+
+.product-image{
+    width:100%; 
+    overflow: hidden; 
+    height: 213px;
+}
+
+.item-title, .item-price {
+    margin-bottom: 8px;
+    margin-left: 16px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+
+.item-price{
+    margin-bottom: 24px;
+}
+
+
+.item-description{
+    font-size: 14px;
+    color: #898989;
+    margin-top: -8px;
+    margin-left: 16px;
+    margin-bottom: 16px;
+}
+
+.cart-btn{
+    border: none;
+    background-color: #fff;
+    color: #B88E2F;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    width: 70%;
+    margin: 0 auto;
+    height: 40px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.cart-btn:hover, #search-btn:hover{
+    color: #fff;
+    background-color: #B88E2F;
+}
+
+#search-bar, #search-btn{
+    height: 25px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 2px;
+}
+
+#search-btn{
+    background-color: #fff;
+    color: #B88E2F;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.items-section > h2.atention{
+    margin: 0 auto;
+}
+
+.product-img{
+    width: 100px;
+    object-fit: contain;
+}
+
+.view-user, tr, td, th{
+    border: 1px solid #4b3a12;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 5px;
+}
+
+th{
+    padding: 3px 10px;
+}
+
+.ed-del{
+    text-align: center;
+}
+
+.view-user{
+    width: 100%;
+}
+
+.btn-center{
+    text-align: center;
+}

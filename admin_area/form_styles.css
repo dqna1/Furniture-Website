@@ -1,0 +1,126 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-form{
+    width: 40%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #F9F1E7;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label{
+    margin-bottom: 4px;
+    font-size: 14px;
+
+}
+
+input[type="text"], input[type="password"], input[type="email"]{
+    height: 30px;
+    margin-bottom: 16px;
+    width: 99%;
+    border:none;
+    outline: none;
+    border-bottom: 1px solid #b88f2f00;
+    transition: 0.2s ease-in-out;
+    padding-left: 8px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, input[type="email"]:focus{
+    border-bottom: 1px solid #B88E2F;
+    
+}
+
+.btn{
+    border: 1px solid #B88E2F;
+    background-color: #fff;
+    color: #B88E2F;
+    margin-top: 32px;
+    font-weight: bold;
+    width: 50%;
+    height: 40px;
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.btn:hover, input[type="file"]::file-selector-button:hover{
+    color: #fff;
+    background-color: #B88E2F;
+}
+
+.center{
+    text-align: center;
+}
+
+input[type="file"]::file-selector-button{
+    border: 1px solid #B88E2F;
+    background-color: #fff;
+    color: #B88E2F;
+    height: 30px;
+    transition: 0.3s;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.home{
+    background-color: #fff;
+    border: 1px solid #B88E2F;
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+}
+
+.home a{
+    text-decoration: none;
+    color: #B88E2F;
+}
+
+body.log-in-bg{
+    background: url("../img/living-room-login.jpg") no-repeat center;
+    background-size: cover;
+    height: 700px;
+}
+
+body.register-bg{
+    background: url("../img/living-room-register.jpg") no-repeat center;
+    background-size: cover;
+    height: 700px;
+}
+
+.cond{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.cond > label{
+    margin: 0;
+}
+
+a:link, a:visited {
+    color: #B88E2F;
+}
+
+a:active{
+    color: black;
+}
+
+.small{
+    width: 200px;
+    font-size: 14px;
+}
+
+.small a {
+    text-decoration: none;
+}
